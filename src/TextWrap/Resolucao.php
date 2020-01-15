@@ -16,7 +16,7 @@ class Resolucao implements TextWrapInterface {
 
     //obtém as palavras da string
     $stringWords = preg_split("/ /", $originalString);
-    $newString = array();
+    $newString = array("");
     $lineCounter = 0;
     $wordCounter = 0;
 
